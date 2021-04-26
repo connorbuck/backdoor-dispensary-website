@@ -32,17 +32,30 @@ html, body{
 
 .nav-text{
     font-size: 1.1em !important;
-    list-style-type: none;
 }
 
 .img-fluid{
   max-width: 100%;
   height: auto;
+  position: relative;
 }
 
-.store-image{
-    padding-top: 120px;
+.storefront{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
+
+.storefront-img{
+    border: 5px solid #cc9a33;
+}
+
+.menu{
+    padding-top: 0px;
+  }
+.menu h2{
+    text-align: center;
+    color: #FFFFFF;
+  }
 
 .logo-header{
     position: relative;
