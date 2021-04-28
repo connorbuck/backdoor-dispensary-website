@@ -145,6 +145,14 @@ hr{
     content: "";
     display:block;
   }
+  .navbar{
+    padding: .8rem;
+    border-bottom:5px solid #FFFFFF;
+  }
+  .menu:before {
+    content: "";
+    display:block;
+  }
   .card-img-top{
     width: 100%;
     height: 60vw;
