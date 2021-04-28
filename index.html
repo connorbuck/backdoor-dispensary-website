@@ -4,13 +4,17 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Backdoor Dispensary</title>
-	<link rel="icon" href="img/headshot.jpg">
+	<link rel="icon" href="img/logo.png">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 	<link href="style.css" rel="stylesheet">
+
+    <!-- Leafly API -->
+  <script src="https://www.leafly.com/public/global/js/dispensarymanager/embed.js"></script>
+  <script>var pymParent = pym.Parent('leafly-menu', 'https://www.leafly.com/embed/menu2/backdoor-dispensary', {});</script>   
 </head>
 <body>
 
@@ -18,7 +22,7 @@
 <!-- <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top"> -->
 <!-- <nav class="navbar navbar-expand-md navbar-custom align-items-end static-top"> -->
 <nav class="navbar navbar-expand-md navbar-custom align-items-end fixed-top">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="#storefront">
         <img src="img/logo.png" width="420" height="100" alt="">
     </a>
     <ul class="navbar-nav mr-auto">
@@ -31,15 +35,30 @@
         <li class="nav-item">
           <a class="nav-link" href="#contact">CONTACT</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">PRODUCTS</a>
+        <!-- <li class="nav-item">
+          <a class="nav-link" href="https://www.leafly.com/embed/menu2/backdoor-dispensary" target="_blank">PRODUCTS</a>
+        </li> -->
+        <!-- Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+            PRODUCTS
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="https://www.leafly.com/embed/menu2/backdoor-dispensary" target="_blank">All</a>
+            <a class="dropdown-item" href="https://www.leafly.com/embed/menu2/backdoor-dispensary?product_category[]=Concentrate" target="_blank">Concentrate</a>
+            <a class="dropdown-item" href="https://www.leafly.com/embed/menu2/backdoor-dispensary?product_category[]=Edible" target="_blank">Edible</a>
+            <a class="dropdown-item" href="https://www.leafly.com/embed/menu2/backdoor-dispensary?product_category[]=Flower" target="_blank">Flower</a>
+            <a class="dropdown-item" href="https://www.leafly.com/embed/menu2/backdoor-dispensary?product_category[]=Other" target="_blank">Other</a>
+            <a class="dropdown-item" href="https://www.leafly.com/embed/menu2/backdoor-dispensary?product_category[]=PreRoll" target="_blank">PreRoll</a>
+            <a class="dropdown-item" href="https://www.leafly.com/embed/menu2/backdoor-dispensary?product_category[]=Topical" target="_blank">Topical</a>
+          </div>
         </li>
     </ul>
-    <ul class="navbar-nav"></ul>
+    <!-- <ul class="navbar-nav"></ul>
         <li class="nav-item list-unstyled">
           <a class="nav-link" href="https://www.google.com/maps/place/263+34th+Ave+S+W,+Norman,+OK+73072/@35.2173137,-97.4929917,17z/data=!3m1!4b1!4m5!3m4!1s0x87b2690e47155555:0x9dba88117f2faea7!8m2!3d35.2173137!4d-97.490803">263 34th Ave S W, Norman, OK 73072</a>
         </li>
-    </ul>
+    </ul> -->
 
     <!-- <ul class="navbar-nav">
         <li class="nav-item">
@@ -91,28 +110,23 @@
         </div>
       </div>
       </div>
-      <div class="container-fluid">
-        <div class="row text-center">
-          <div class="col-sm-12">
-            <i class="fas fa-phone center"></i>
-            <p>(405) 701-3404</p>
-          </div>
-          <div class="col-sm-12">
-            <i class="fas fa-envelope center"></i>
-            <p>cbuck@ou.edu</p>
-          </div>
-        </div>
-      </div>
+</a>
+
+<!-- Contact Icons -->
+<div class="container-fluid">
+  <div class="row text-center padding">
+    <div class="col-sm-6 col-md-6">
+      <i class="fas fa-phone center"></i>
+      <p>(405) 701-3404</p>
     </div>
-  </a>
-
-<!-- Contact Info -->
-
-
-  
-        
-  
-
-
+    <div class="col-sm-6 col-md-6">
+      <i class="fas fa-map-pin center"></i>
+      <a class="nav-link" href="https://www.google.com/maps/place/263+34th+Ave+S+W,+Norman,+OK+73072/@35.2173137,-97.4929917,17z/data=!3m1!4b1!4m5!3m4!1s0x87b2690e47155555:0x9dba88117f2faea7!8m2!3d35.2173137!4d-97.490803">263 34th Ave S W, Norman, OK 73072</a>
+    </div>
+  </div>
+</div>
+</div>
 </body>
 </html>
+
+
