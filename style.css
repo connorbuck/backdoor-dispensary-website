@@ -141,7 +141,7 @@ hr{
     scroll-padding-top: 20%;
   }
   .storefront:before {
-    height: 154px;
+    height: 174px;
     content: "";
     display:block;
   }
