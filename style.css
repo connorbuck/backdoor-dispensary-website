@@ -140,6 +140,11 @@ hr{
   body{
     scroll-padding-top: 15%;
   }
+  .storefront:before {
+    height: 154px;
+    content: "";
+    display:block;
+  }
   .card-img-top{
     width: 100%;
     height: 60vw;
