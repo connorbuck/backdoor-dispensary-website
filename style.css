@@ -80,6 +80,7 @@ html, body{
   -o-background-size: cover;
   background-size: cover;
   object-fit: cover !important;
+  overflow: hidden !important;
   background-position: 50% 50%;
 }
 
