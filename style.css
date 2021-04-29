@@ -90,6 +90,10 @@ html, body{
   display: block !important;
 }
 
+.carousel-inner{
+  max-height: 80vh;
+}
+
 .menu:before {
   content: "";
   display:block;
@@ -181,6 +185,10 @@ hr{
     background-position: 50% 50%;
   }
 
+  .carousel-inner{
+    max-height: 80vh;
+  }
+
   .navbar-fixed-top {
       position: relative;
       top: auto;
@@ -243,6 +251,10 @@ hr{
     background-size: cover;
     object-fit: cover !important;
     background-position: 50% 50%;
+  }
+
+  .carousel-inner{
+    max-height: 80vh;
   }
 
   .navbar-fixed-top {
