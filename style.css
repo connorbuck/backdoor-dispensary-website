@@ -9,6 +9,12 @@ html, body{
   scroll-padding-top: 15%;
 }
 
+.full-screen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .center {
   text-align: center;
   width: 100%;
@@ -260,8 +266,8 @@ hr{
   }
   
   .carousel-item {
-    height: 10vh;
-    max-height: 10vh;
+    height: 5vh;
+    max-height: 5vh;
     /* min-height: 350px; */
     background: no-repeat center center scroll;
     -webkit-background-size: cover;
