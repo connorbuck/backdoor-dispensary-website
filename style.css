@@ -245,6 +245,13 @@ hr{
     padding-top: 0px;
   }
 
+  .logo-img{
+    padding: 0px;
+    border: 0px;
+    width: 300px;
+    height: 70px;
+  }
+
   .navbar{
     padding: 0rem;
     border-bottom:5px solid #FFFFFF;
