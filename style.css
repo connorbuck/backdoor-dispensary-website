@@ -299,6 +299,7 @@ hr{
   .menu:before {
     content: "";
     display:block;
+    height: 10px;
   }
 
   .menu h2{
