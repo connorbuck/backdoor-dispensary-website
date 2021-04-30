@@ -37,6 +37,14 @@ html, body{
     padding-right:30px;
 }
 
+.dropdown-menu {
+  background-color: black;
+}
+
+.dropdown-item{
+  color: #fff;
+}
+
 .navbar-custom{
     background-color: black;
 }
