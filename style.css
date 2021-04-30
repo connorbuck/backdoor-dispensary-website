@@ -299,7 +299,7 @@ hr{
   .menu:before {
     content: "";
     display:block;
-    height: 10px;
+    height: 15px;
   }
 
   .menu h2{
