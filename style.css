@@ -227,18 +227,22 @@ hr{
 }
 @media (max-width: 576px) {
   body{
-    scroll-padding-top: 20%;
-    margin: 0;
+    /* scroll-padding-top: 20%; */
+    padding-top: 30px;
+    /* margin-bottom: 75px; */
   }
   .storefront:before {
-    height: 154px;
+    /* height: 154px; */
     content: "";
     display:block;
   }
   .navbar{
     padding: .8rem;
     border-bottom:5px solid #FFFFFF;
+    /* height: 20vh; */
+    /* margin-bottom: 150px; */
   }
+
   .menu:before {
     content: "";
     display:block;
@@ -260,7 +264,7 @@ hr{
     object-fit: cover;
   }
   .carousel:before {
-    height: 154px;
+    /* height: 154px; */
     content: "";
     display:block;
   }
@@ -289,6 +293,11 @@ hr{
   .navbar-collapse {
       max-height: none;
   }
+
+  .navbar-brand{
+    margin-bottom: 20px;
+  }
+
 }
 
 /*---Firefox Bug Fix --*/
