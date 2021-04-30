@@ -186,6 +186,11 @@ hr{
     display:block;
   }
 
+  .menu:before {
+    content: "";
+    display:block;
+  }
+
   .carousel-item {
     height: 20vh;
     max-height: 20vh;
@@ -220,7 +225,7 @@ hr{
     margin: 0;
   }
   .storefront:before {
-    height: 254px;
+    height: 154px;
     content: "";
     display:block;
   }
@@ -249,7 +254,7 @@ hr{
     object-fit: cover;
   }
   .carousel:before {
-    height: 254px;
+    height: 154px;
     content: "";
     display:block;
   }
