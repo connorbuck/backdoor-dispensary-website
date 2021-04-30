@@ -220,7 +220,7 @@ hr{
     margin: 0;
   }
   .storefront:before {
-    height: 154px;
+    height: 254px;
     content: "";
     display:block;
   }
@@ -249,7 +249,7 @@ hr{
     object-fit: cover;
   }
   .carousel:before {
-    height: 154px;
+    height: 254px;
     content: "";
     display:block;
   }
