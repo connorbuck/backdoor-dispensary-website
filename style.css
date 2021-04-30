@@ -181,9 +181,9 @@ hr{
   }
   
   .carousel-item {
-    height: 80vh;
-    max-height: 80vh;
-    min-height: 350px;
+    height: 20vh;
+    max-height: 20vh;
+    /* min-height: 350px; */
     background: no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -249,9 +249,9 @@ hr{
   }
   
   .carousel-item {
-    height: 80vh;
-    max-height: 80vh;
-    min-height: 350px;
+    height: 10vh;
+    max-height: 10vh;
+    /* min-height: 350px; */
     background: no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
