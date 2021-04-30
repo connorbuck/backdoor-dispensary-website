@@ -277,6 +277,7 @@ hr{
   .carousel:before {
     content: "";
     display:block;
+    height: 80px;
   }
 
   .carousel-inner{
@@ -298,6 +299,18 @@ hr{
   .menu:before {
     content: "";
     display:block;
+  }
+
+  .menu h2{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 1.17em;
+  }
+
+  .contact h2{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 1.17em;
   }
 }
 
