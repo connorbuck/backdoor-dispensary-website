@@ -27,7 +27,8 @@ html, body{
 }
 
 .navbar{
-  padding: .8rem;
+  /* padding: .8rem; */
+  padding: 0rem;
   border-bottom:5px solid #FFFFFF;
 }
 
@@ -140,6 +141,12 @@ html, body{
     max-height: 100px;
 }
 
+.logo-img{
+  padding: 0px;
+  border: 0px;
+  border: 4px solid #cc9a33;
+}
+
 .padding{
   padding-bottom: 2rem;
 }
@@ -237,7 +244,8 @@ hr{
     display:block;
   }
   .navbar{
-    padding: .8rem;
+    /* padding: .8rem; */
+    padding: 0rem;
     border-bottom:5px solid #FFFFFF;
     /* height: 20vh; */
     /* margin-bottom: 150px; */
@@ -296,6 +304,11 @@ hr{
 
   .navbar-brand{
     margin-bottom: 20px;
+  }
+
+  .navbar-toggler{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
   }
 
 }
