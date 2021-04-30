@@ -179,7 +179,13 @@ hr{
     content: "";
     display:block;
   }
-  
+
+  .storefront:before {
+    height: 154px;
+    content: "";
+    display:block;
+  }
+
   .carousel-item {
     height: 20vh;
     max-height: 20vh;
