@@ -46,8 +46,36 @@
         pause: "false"
         });
     </script>
+
+    <script type="text/javascript">
+      $(window).on('load', function() {
+          $('#myModal').modal('show');
+      });
+    </script>
+
   </head>
   <body>
+
+    <!-- Age Verification Pop-Up -->
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Age Verification</h5>
+          </div>
+          <div class="modal-body">
+            <p>You must be 18 or older to enter this site.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">I'm over 18</button>
+            <a href="https://www.google.com">
+              <button type="button" class="btn btn-primary">Exit</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-md navbar-custom align-items-end fixed-top">
