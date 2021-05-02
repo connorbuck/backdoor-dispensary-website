@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Backdoor Dispensary</title>
+    <link rel="icon" href="../../img/logo.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link href="../../style.css" rel="stylesheet">
+    <script type="text/javascript">
+      $('.navbar-nav>li>a').on('click', function(){
+        $('.navbar-collapse').collapse('hide');
+    });
+    </script>
+
+    <script type="text/javascript">
+      var $item = $('.carousel-item');
+      var $wHeight = $(window).height();
+
+      $item.height($wHeight);
+      $item.addClass('full-screen');
+
+      $('.carousel img').each(function() {
+        var $src = $(this).attr('src');
+        var $color = $(this).attr('data-color');
+        $(this).parent().css({
+          'background-image' : 'url(' + $src + ')',
+          'background-color' : $color
+        });
+        $(this).remove();
+      });
+
+      $(window).on('resize', function (){
+        $wHeight = $(window).height();
+        $item.height($wHeight);
+      });  
+    </script>
+
+    <script>
+      $('.carousel').carousel({
+        interval: 6000,
+        pause: "false"
+        });
+    </script>
+  </head>
+  <body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-md navbar-custom align-items-end fixed-top">
+        <a class="navbar-brand" href="../../index.html#carousel">
+            <img src="../../img/logo.png" class="logo-img" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">
+          <i class="fas fa-bars" style="color:#fff; font-size:20px;"></i>
+        </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive" data-toggle="collapse" data-target=".navbar-collapse">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="../../index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../../index.html#carousel">PHOTOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../../index.html#menu">MENU</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../../index.html#contact">CONTACT</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                PRODUCTS
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="https://www.leafly.com/embed/menu2/backdoor-dispensary" target="_blank">All</a>
+                <a class="dropdown-item" href="https://www.leafly.com/embed/menu2/backdoor-dispensary?product_category[]=Concentrate" target="_blank">Concentrate</a>
+                <a class="dropdown-item" href="https://www.leafly.com/embed/menu2/backdoor-dispensary?product_category[]=Edible" target="_blank">Edible</a>
+                <a class="dropdown-item" href="https://www.leafly.com/embed/menu2/backdoor-dispensary?product_category[]=Flower" target="_blank">Flower</a>
+                <a class="dropdown-item" href="https://www.leafly.com/embed/menu2/backdoor-dispensary?product_category[]=Other" target="_blank">Other</a>
+                <a class="dropdown-item" href="https://www.leafly.com/embed/menu2/backdoor-dispensary?product_category[]=PreRoll" target="_blank">PreRoll</a>
+                <a class="dropdown-item" href="https://www.leafly.com/embed/menu2/backdoor-dispensary?product_category[]=Topical" target="_blank">Topical</a>
+              </div>
+            </li>
+        </ul>
+        </div>
+    </nav>
+
+    <a name="menu">
+        <div class="strains-all">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-12 px-0">
+                <h2>Hybrid Concentrate Strains</h2>
+                <hr>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6">
+                <div class="card">
+                  <div class="card-img-overlay box">
+                    <a href="https://www.leafly.com/embed/menu2/backdoor-dispensary?product_category[]=Concentrate&strain_name[]=Cataract%20Kush" target="_blank">
+                      <img src="../../img/concentrate/cataract_kush.jfif" class="card-img-top" alt="Cataract Kush">
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Cataract Kush Cartridge (1g)</h5>
+                    <p class="card-text">This is the combination of LA Confidential and OG Kush. This strain was created by DNA Genetics and it has blankets of crystals and looks almost grayish-black. The effect is good for pain, eating and sleep disorders. Most describe Cataract as a "creeper" high that keeps on building long after you stop smoking! This strain has been years in the making and is NOT recommended for the light-weight smoker. After you experience the Cataract Kush you'll think you have cataracts!</p>
+                    <a href="https://www.leafly.com/embed/menu2/backdoor-dispensary?product_category[]=Concentrate&strain_name[]=Cataract%20Kush" target="_blank" class="btn btn-primary">Learn More</a>
+                  </div>
+                </div>
+            </div>
+          </div>
+          </div>
+      </div>
+        </div>
+      </a>
+
+    </body>
+</html>

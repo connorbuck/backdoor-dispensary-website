@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Backdoor Dispensary</title>
+    <link rel="icon" href="../../img/logo.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link href="../../style.css" rel="stylesheet">
+    <script type="text/javascript">
+      $('.navbar-nav>li>a').on('click', function(){
+        $('.navbar-collapse').collapse('hide');
+    });
+    </script>
+
+    <script type="text/javascript">
+      var $item = $('.carousel-item');
+      var $wHeight = $(window).height();
+
+      $item.height($wHeight);
+      $item.addClass('full-screen');
+
+      $('.carousel img').each(function() {
+        var $src = $(this).attr('src');
+        var $color = $(this).attr('data-color');
+        $(this).parent().css({
+          'background-image' : 'url(' + $src + ')',
+          'background-color' : $color
+        });
+        $(this).remove();
+      });
+
+      $(window).on('resize', function (){
+        $wHeight = $(window).height();
+        $item.height($wHeight);
+      });  
+    </script>
+
+    <script>
+      $('.carousel').carousel({
+        interval: 6000,
+        pause: "false"
+        });
+    </script>
+  </head>
+  <body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-md navbar-custom align-items-end fixed-top">
+        <a class="navbar-brand" href="../../index.html#carousel">
+            <img src="../../img/logo.png" class="logo-img" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">
+          <i class="fas fa-bars" style="color:#fff; font-size:20px;"></i>
+        </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive" data-toggle="collapse" data-target=".navbar-collapse">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="../../index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../../index.html#carousel">PHOTOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../../index.html#menu">MENU</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../../index.html#contact">CONTACT</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                PRODUCTS
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="https://www.leafly.com/embed/menu2/backdoor-dispensary" target="_blank">All</a>
+                <a class="dropdown-item" href="https://www.leafly.com/embed/menu2/backdoor-dispensary?product_category[]=Concentrate" target="_blank">Concentrate</a>
+                <a class="dropdown-item" href="https://www.leafly.com/embed/menu2/backdoor-dispensary?product_category[]=Edible" target="_blank">Edible</a>
+                <a class="dropdown-item" href="https://www.leafly.com/embed/menu2/backdoor-dispensary?product_category[]=Flower" target="_blank">Flower</a>
+                <a class="dropdown-item" href="https://www.leafly.com/embed/menu2/backdoor-dispensary?product_category[]=Other" target="_blank">Other</a>
+                <a class="dropdown-item" href="https://www.leafly.com/embed/menu2/backdoor-dispensary?product_category[]=PreRoll" target="_blank">PreRoll</a>
+                <a class="dropdown-item" href="https://www.leafly.com/embed/menu2/backdoor-dispensary?product_category[]=Topical" target="_blank">Topical</a>
+              </div>
+            </li>
+        </ul>
+        </div>
+    </nav>
+
+    <a name="menu">
+        <div class="strains-all">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-12 px-0">
+                <h2>Hybrid Strains</h2>
+                <hr>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-img-overlay box">
+                  <a href="https://www.leafly.com/embed/menu2/backdoor-dispensary?product_category[]=Flower&strain_name[]=Apollo%2011" target="_blank">
+                    <img src="../../img/flower/apollo-11.png" class="card-img-top" alt="Apollo 11">
+                  </a>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Apollo 11</h5>
+                  <p class="card-text">Apollo 11 is a potent hybrid cannabis strain with strong cerebral effects that might just have your head feeling like it’s making a moon landing. It’s another strain created by breeders Brothers Grimm and is the half-sister to another heady sativa, Apollo 13. Apollo 11 also has Genius (a Jack Herer phenotype) as a mother, but was crossed with Cinderella 99 to create this uplifting strain. This Apollo shares the family trait of an extremely fast flowering time, usually before 8 weeks. There is some variety among plants, but in general they will stay shorter and develop lots of branches and bud sites. The resinous flowers will have a strong, sharp citrus aroma and a slightly subtler lemon flavor. Effective for treating stress and moderate pain, for a few hours this strain will give you a first-class trip out of this world.</p>
+                  <a href="https://www.leafly.com/embed/menu2/backdoor-dispensary?product_category[]=Flower&strain_name[]=Apollo%2011" target="_blank" class="btn btn-primary">Learn More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card">
+                  <div class="card-img-overlay box">
+                    <a href="https://www.leafly.com/embed/menu2/backdoor-dispensary?product_category[]=Flower&strain_name[]=Chemdawg" target="_blank">
+                      <img src="../../img/flower/chemdawg.png" class="card-img-top" alt="Chemdawg">
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Chemdawg</h5>
+                    <p class="card-text">Chemdog has developed quite the name for itself over the years. Between its mysterious origin, ambiguous genetics, and the plethora of successful crosses the strain has produced, Chemdog has practically secured itself a permanent place in the cannabis hall of fame. The original source of powerhouse strains like Sour Diesel and OG Kush, Chemdog is known for its distinct, diesel-like aroma. Pungent and sharp, you’ll be able to smell this strain from a mile away.  Cannabis newbies be warned: Chemdog tends to be very potent. Consumers can expect to have a cerebral experience, coupled with a strong heavy-bodied feeling. </p>
+                    <a href="https://www.leafly.com/embed/menu2/backdoor-dispensary?product_category[]=Flower&strain_category[]=Sativa" target="_blank" class="btn btn-primary">Learn More</a>
+                  </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card">
+                  <div class="card-img-overlay box">
+                    <a href="https://www.leafly.com/embed/menu2/backdoor-dispensary?product_category[]=Flower&strain_name[]=GSC" target="_blank">
+                      <img src="../../img/flower/girl_scout_cookies.jfif" class="card-img-top" alt="Girl Scout Cookies">
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Girl Scout Cookies</h5>
+                    <p class="card-text">GSC, also called Girl Scout Cookies, is an indica-hybrid marijuana strain made by crossing OG Kush with Durban Poison. GSC produces euphoric effects followed by full-body relaxation. This strain typically features a high level of THC, so it is best reserved for consumers with a high THC tolerance. GSC is loved for its sweet and pungent flavor profile with notes of mint, cherry and lemon. Medical marijuana patients choose this strain to help relieve symptoms associated with chronic pain, nausea, and appetite loss. Growers say GSC grows in green and purple buds with fiery orange hairs. This strain has an average flowering time of 9-10 weeks. There are several different variations of GSC, including Thin Mint and Platinum GSC (aka Platinum Girl Scout Cookies). Fun Fact: GSC has won numerous Cannabis Cup awards.</p>
+                    <a href="https://www.leafly.com/embed/menu2/backdoor-dispensary?product_category[]=Flower&strain_name[]=GSC" target="_blank" class="btn btn-primary">Learn More</a>
+                  </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card">
+                  <div class="card-img-overlay box">
+                    <a href="https://www.leafly.com/embed/menu2/backdoor-dispensary?product_category[]=Flower&strain_name[]=Gelato%20Cake" target="_blank">
+                      <img src="../../img/flower/gelato_cake.png" class="card-img-top" alt="Gelato Cake">
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Gelato Cake</h5>
+                    <p class="card-text">Gelato Cake is a potent indica-dominant marijuana strain made by crossing the creamy berry of Gelato #33 and the vanilla frosting of Wedding Cake. Part of the Cookie strain family, Gelato Cake is very popular across North America and beyond. Consumers should know that Gelato Cake is potent and is best for experienced users. Gelato Cake is known to cause full-body sedation which can last up to a few hours, so it's best to enjoy this strain before bed or during a relaxing night at home watching movies. Medical patients choose Gelato Cake for stimulating appetite and relieving stiffness, pain and stress. Growers choose to grow Gelato Cake for its creamy, berry, gassy and vanilla frosting aromas. Gelato Cake can be grown indoors and outdoors, with a flowering time of 8-9 weeks. Gelato Cake Strain Highlights Type: indica-dominant Tastes like: berries and vanilla Feels like: sedating Flowering time: 8-9 weeks</p>
+                    <a href="https://www.leafly.com/embed/menu2/backdoor-dispensary?product_category[]=Flower&strain_name[]=Gelato%20Cake" target="_blank" class="btn btn-primary">Learn More</a>
+                  </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card">
+                  <div class="card-img-overlay box">
+                    <a href="https://www.leafly.com/embed/menu2/backdoor-dispensary?product_category[]=Flower&strain_name[]=Gilz%20Nilz" target="_blank">
+                      <img src="../../img/flower/gilz_nilz.png" class="card-img-top" alt="Gilz Nilz">
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Gilz Nilz</h5>
+                    <p class="card-text">Gilz Nilz is a cross of The White and an exceptional Georgia Pine male. It can be a wily plant, but with proper training will yield a robust harvest. This strain is a balance of cerebral and physical effects, offering a lucid and manageable buzz that can mellow stress and pain. Gilz Nilz has an 8-week flowering time and is known for its heavy yield and abundance of trichomes. </p>
+                    <a href="https://www.leafly.com/embed/menu2/backdoor-dispensary?product_category[]=Flower&strain_name[]=Gilz%20Nilz" target="_blank" class="btn btn-primary">Learn More</a>
+                  </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card">
+                  <div class="card-img-overlay box">
+                    <a href="https://www.leafly.com/embed/menu2/backdoor-dispensary?product_category[]=Flower&strain_name[]=Kimbo%20Kush" target="_blank">
+                      <img src="../../img/flower/kimbo_kush.jpg" class="card-img-top" alt="Kimbo Kush">
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Kimbo Kush</h5>
+                    <p class="card-text">Kimbo Kush is a hybrid marijuana strain made by crossing Blackberry Kush with Starfighter. Kimbo Kush produces effects that are relaxing in small doses, sedating in larger doses. Because of its potency, Kimbo Kush is best enjoyed at the end of the day or before you head to bed. This strain is named after the late Kimbo Slice. Medial marijuana patients choose this strain to help relieve symptoms associated with insomnia. </p>
+                    <a href="https://www.leafly.com/embed/menu2/backdoor-dispensary?product_category[]=Flower&strain_name[]=Kimbo%20Kush" target="_blank" class="btn btn-primary">Learn More</a>
+                  </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card">
+                  <div class="card-img-overlay box">
+                    <a href="https://www.leafly.com/embed/menu2/backdoor-dispensary?product_category[]=Flower&strain_name[]=Liberty%20Haze" target="_blank">
+                      <img src="../../img/flower/liberty_haze.jpg" class="card-img-top" alt="Liberty Haze">
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Liberty Haze</h5>
+                    <p class="card-text">Winner of the 2011 High Times Cannabis Cup, Liberty Haze quickly became popular for its fast flowering time and unique taste. Bred by Barner’s Farm, this cross between G13 and Chemdawg 91 matures as a medium-tall, bushy plant in 8-9 weeks. The buds are lime-green, heavy with crystals, and usually have plenty of red hairs. Consumers like this strain for its refreshing lime taste and its potency. This hybrid can offer uplifting cerebral effects, making it a popular choice for those treating depression and anxiety.</p>
+                    <a href="https://www.leafly.com/embed/menu2/backdoor-dispensary?product_category[]=Flower&strain_name[]=Liberty%20Haze" target="_blank" class="btn btn-primary">Learn More</a>
+                  </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card">
+                  <div class="card-img-overlay box">
+                    <a href="https://www.leafly.com/embed/menu2/backdoor-dispensary?product_category[]=Flower&strain_name[]=Slymer" target="_blank">
+                      <img src="../../img/flower/slymer.png" class="card-img-top" alt="Slymer">
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Slymer</h5>
+                    <p class="card-text">Slymer is a sativa-dominant hybrid marijuana strain bred by TGA Genetics. This strain provides cerebral effects that are long lasting. Slymer is beloved for its sweet and citrusy terpene profile.</p>
+                    <a href="https://www.leafly.com/embed/menu2/backdoor-dispensary?product_category[]=Flower&strain_name[]=Slymer" target="_blank" class="btn btn-primary">Learn More</a>
+                  </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card">
+                  <div class="card-img-overlay box">
+                    <a href="https://www.leafly.com/embed/menu2/backdoor-dispensary?product_category[]=Flower&strain_name[]=Thin%20Mint%20GSC" target="_blank">
+                      <img src="../../img/flower/thin_mint.jpg" class="card-img-top" alt="Durban Thin Mint">
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Durban Thin Mint</h5>
+                    <p class="card-text">Thin Mint, a hybrid cross containing Durban Poison and OG Kush genetics, is a phenotype of the legendary GSC strain. Dark green and royal purple hues peek through a heavy coat of crystals, with a sweet minty smell that gives a full explanation of this strain’s name. Thin Mint calls upon the powers of its indica, sativa, and hybrid ancestors for a powerful full-body effect that gives this strain its sterling reputation. The high psychoactivity of this strain is not for novice consumers, but patients with a variety of symptoms are giving Thin Mint their seal of approval: severe pain, nausea, swelling, insomnia, and appetite loss are no match for the potency of Thin Mint.</p>
+                    <a href="https://www.leafly.com/embed/menu2/backdoor-dispensary?product_category[]=Flower&strain_name[]=Strawberry%20Banana%20Cheese" target="_blank" class="btn btn-primary">Learn More</a>
+                  </div>
+                </div>
+            </div>
+          </div>
+      </div>
+        </div>
+      </a>
+
+    </body>
+</html>

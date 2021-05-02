@@ -206,8 +206,9 @@ hr{
 }
 
 .strains-all h2{
+  padding-top: 2.8rem;
   text-align: center;
-      color: #FFFFFF;
+  color: #FFFFFF;
 }
 
 /*---Media Queries --*/
