@@ -197,6 +197,15 @@ hr{
       color: #FFF;
   }
 
+  .contact-text{
+    font-size: 1.5em !important;
+    color: #FFFFFF;
+  }
+
+  .contact-text p{
+    font-size: 1.5em !important;
+  }
+
 .strains-all:before{
   content: "";
   display:block;
@@ -375,13 +384,21 @@ hr{
   .menu h2{
     text-align: center;
     color: #FFFFFF;
-    font-size: 1.17em;
+    font-size: 2em;
   }
 
   .contact h2{
     text-align: center;
     color: #FFFFFF;
-    font-size: 1.17em;
+    font-size: 2em;
+  }
+
+  hr{
+    border-top: 2px solid #fff;
+    width:60%;
+    margin-top: .3rem;
+    margin-bottom: .1rem;
+    padding-bottom: 1rem;
   }
 }
 
