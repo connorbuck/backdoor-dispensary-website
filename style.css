@@ -356,7 +356,7 @@ hr{
   .carousel:before {
     content: "";
     display:block;
-    height: 70px;
+    height: 100px;
   }
 
   .carousel-inner{
