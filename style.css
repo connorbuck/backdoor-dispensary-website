@@ -169,6 +169,10 @@ html, body{
   color: #FFF;
 }
 
+ .card p{
+   font-size: 1.17em;
+ }
+
 .box {
   position: relative;
   /* background-color: #cc9a33; */
@@ -332,6 +336,11 @@ hr{
     background-size: cover;
     object-fit: cover !important;
     background-position: 50% 50%;
+  }
+
+  .about:before {
+    content: "";
+    display:block;
   }
 
   .menu:before {
