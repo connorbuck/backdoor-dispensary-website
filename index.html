@@ -9,7 +9,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <!-- <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script> -->
+    <script src="https://use.fontawesome.com/0ecd4a918c.js"></script>
     <link href="style.css" rel="stylesheet">
     <script type="text/javascript">
       $('.navbar-nav>li>a').on('click', function(){
@@ -84,34 +85,22 @@
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon">
-          <i class="fas fa-bars" style="color:#fff; font-size:20px;"></i>
+          <i class="fa fa-bars" style="color:#fff; font-size:20px;"></i>
         </span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive" data-toggle="collapse" data-target=".navbar-collapse">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">HOME</a>
+              <a class="nav-link" href="#about">ABOUT US</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#carousel">PHOTOS</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                MENU
-              </a>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="menu/flower/menu-flower.html">Flower</a>
-                <a class="dropdown-item" href="menu/edible/menu-edible.html">Edible</a>
-                <a class="dropdown-item" href="menu/concentrate/menu-concentrate.html">Concentrate</a>
-                <a class="dropdown-item" href="menu/other/menu-other.html">Other</a>
-                <a class="dropdown-item" href="menu/preroll/menu-preroll.html">Preroll</a>
-                <a class="dropdown-item" href="menu/topical/menu-topical.html">Topicals</a>
-              </div>
+              <a class="nav-link" href="https://www.leafly.com/embed/menu2/backdoor-dispensary" target="_blank">MENU</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact">CONTACT</a>
             </li>
         </ul>
+        <a href="https://www.facebook.com/BackdoorDispensary/" target="_blank"> <i class="fa fa-facebook-official"></i></a>
         </div>
     </nav>
 
@@ -166,121 +155,53 @@
   </a>
 
 
-    <!-- Menu -->
-    <!-- <a name="menu">
-      <div class="my-class">
-        <div class="menu">
-          <div class="container-fluid">
-          <div class="row">
-            <div class="col-lg-12 px-0">
-              <h2>Menu</h2>
+    <!-- About Us -->
+    <a name="about">
+      <div class="about">
+        <div class="container-fluid">
+          <div class="row justify-content-center align-self-center">
+            <div class="col-lg-12">
+              <h2>About Us</h2>
               <hr>
-              <img class="img-fluid mx-auto d-block" src="img/menu.png">
-            </div>
-          </div>
+              <p> This is an example paragraph for the "About Us" section of the website.</p>
           </div>
         </div>
+        </div>
       </div>
-    </a> -->
+    </a>
 
 
-    <!-- Menu Cards -->
+    <!-- Menu Card -->
     <a name="menu">
       <div class="menu">
         <div class="container-fluid">
-          <div class="row">
-            <div class="col-lg-12 px-0">
+          <div class="row justify-content-center align-self-center">
+            <div class="col-lg-12">
               <h2>Menu</h2>
               <hr>
           </div>
         </div>
-        <div class="row">
-          <div class="col-sm-4">
+        </div>
+        <div class="container d-flex h-100">
+        <div class="row justify-content-center align-self-center">
+          <div class="col-sm-12">
             <div class="card">
               <div class="card-img-overlay box">
-                  <a href="menu/flower/menu-flower.html">
-                  <img src="img/menu/menu-plant-1.jpg" class="card-img-top" alt="Flower">
+                  <a href="https://www.leafly.com/embed/menu2/backdoor-dispensary" target="_blank">
+                  <img src="img/menu/menu.png" class="card-img-top" alt="Menu">
                 </a>
                 <!-- <h4 class="card-title text">Flower</h4> -->
               </div>
               <div class="card-body d-flex flex-column">
-                <h5 class="card-title">Flower</h5>
-                <p class="card-text">Explore all of the flower options Backdoor Dispensary has to offer.</p>
-                <a href="menu/flower/menu-flower.html" class="btn btn-primary">Learn More</a>
+                <h5 class="card-title">Menu</h5>
+                <p class="card-text">Explore all of the menu options Backdoor Dispensary has to offer.</p>
+                <a href="https://www.leafly.com/embed/menu2/backdoor-dispensary" target="_blank" class="btn btn-primary">Learn More</a>
               </div>
             </div>
           </div>
-          <div class="col-sm-4 py-2">
-            <div class="card">
-              <div class="card-img-overlay box">
-                <a href="menu/edible/menu-edible.html">
-                  <img src="img/menu/menu-edibles.jpg" class="card-img-top" alt="Edibles">
-                </a>
-              </div>
-              <div class="card-body d-flex flex-column">
-                <h5 class="card-title">Edibles</h5>
-                <p class="card-text">Explore all of the edible options Backdoor Dispensary has to offer.</p>
-                <a href="menu/edible/menu-edible.html" class="btn btn-primary">Learn More</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-4 py-2">
-            <div class="card">
-              <div class="card-img-overlay box">
-                <a href="menu/concentrate/menu-concentrate.html">
-                  <img src="img/menu/menu-concentrate.png" class="card-img-top" alt="Concentrates">
-                </a>
-              </div>
-              <div class="card-body d-flex flex-column">
-                <h5 class="card-title">Concentrates</h5>
-                <p class="card-text">Explore all of the concentrate options Backdoor Dispensary has to offer.</p>
-                <a href="menu/concentrate/menu-concentrate.html" class="btn btn-primary">Learn More</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-4 py-2">
-            <div class="card">
-              <div class="card-img-overlay box">
-                <a href="menu/other/menu-other.html">
-                  <img src="img/menu/menu-other.jfif" class="card-img-top" alt="Other">
-                </a>
-              </div>
-              <div class="card-body d-flex flex-column">
-                <h5 class="card-title">Other</h5>
-                <p class="card-text">Explore all of the other options Backdoor Dispensary has to offer.</p>
-                <a href="menu/other/menu-other.html" class="btn btn-primary">Learn More</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-4 py-2">
-            <div class="card">
-              <div class="card-img-overlay box">
-                <a href="menu/preroll/menu-preroll.html">
-                  <img src="img/menu/menu-preroll.jpg" class="card-img-top" alt="Preroll">
-                </a>
-              </div>
-              <div class="card-body d-flex flex-column">
-                <h5 class="card-title">Preroll</h5>
-                <p class="card-text">Explore all of the preroll options Backdoor Dispensary has to offer.</p>
-                <a href="menu/preroll/menu-preroll.html" class="btn btn-primary">Learn More</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-4 py-2">
-            <div class="card">
-              <div class="card-img-overlay box">
-                <a href="menu/topical/menu-topical.html">
-                  <img src="img/menu/menu-topicals.jpg" class="card-img-top" alt="Topical">
-                </a>
-              </div>
-              <div class="card-body d-flex flex-column">
-                <h5 class="card-title">Topicals</h5>
-                <p class="card-text">Explore all of the topical options Backdoor Dispensary has to offer.</p>
-                <a href="menu/topical/menu-topical.html" class="btn btn-primary">Learn More</a>
-              </div>
-            </div>
-          </div>
+          
         </div>
+      </div>
       </div>
     </a>
 
@@ -304,16 +225,22 @@
     <!-- Contact Icons -->
     <div class="container-fluid">
       <div class="row text-center">
-        <div class="col-sm-4 py-2 col-md-6">
-          <i class="fas fa-phone center"></i>
+        <div class="col-sm-4 py-2 col-md-4">
+          <i class="fa fa-phone center"></i>
           <div class="contact-text">
             <p>(405) 701-3404</p>
           </div>
         </div>
-        <div class="col-sm-6 col-md-6">
-          <i class="fas fa-map-pin center"></i>
+        <div class="col-sm-4 py-2 col-md-4">
+          <i class="fa fa-map-pin center"></i>
           <div class="contact-text">
             <a class="contact-text" href="https://www.google.com/maps/place/263+34th+Ave+S+W,+Norman,+OK+73072/@35.2173137,-97.4929917,17z/data=!3m1!4b1!4m5!3m4!1s0x87b2690e47155555:0x9dba88117f2faea7!8m2!3d35.2173137!4d-97.490803" target="_blank">263 34th Ave S W, Norman, OK 73072</a>
+          </div>
+        </div>
+        <div class="col-sm-4 py-2 col-md-4">
+          <a href="https://www.facebook.com/BackdoorDispensary/" target="_blank"> <i class="fa fa-facebook-official"></i></a>
+          <div class="contact-text">
+            <a class="contact-text" href="https://www.facebook.com/BackdoorDispensary/" target="_blank">Visit Us</a>
           </div>
         </div>
       </div>

@@ -117,6 +117,26 @@ html, body{
   display: block !important;
 }
 
+
+.about:before {
+  content: "";
+  display:block;
+}
+
+.about{
+  padding-top: 2.8rem;
+  }
+.about h2{
+    text-align: center;
+    color: #FFFFFF;
+  }
+.about p{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 1.17em;
+  }
+
+
 .menu:before {
   content: "";
   display:block;
@@ -185,7 +205,7 @@ hr{
   padding-bottom: 1rem;
 }
 
-.fa-phone, .fa-map-pin{
+.fa-phone, .fa-map-pin, .fa-facebook-official{
     font-size: 4em;
     margin: 1rem;
     color: #FFF;
@@ -374,6 +394,19 @@ hr{
     object-fit: cover !important;
     background-position: 50% 50%;
   }
+
+  .about:before {
+    content: "";
+    display:block;
+    height: 15px;
+  }
+
+  .about h2{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 2em;
+  }
+
 
   .menu:before {
     content: "";
