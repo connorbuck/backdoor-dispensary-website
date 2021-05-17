@@ -394,12 +394,12 @@ hr{
   }
 
   .carousel-inner{
-    max-height: 25vh;
+    max-height: 35vh;
   }
   
   .carousel-item {
-    height: 5vh;
-    max-height: 5vh;
+    height: 10vh;
+    max-height: 10vh;
     background: no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
