@@ -94,12 +94,12 @@ html, body{
 }
 
 .carousel-inner{
-  max-height: 80vh;
+  max-height: 95vh;
 }
 
 .carousel-item {
-  height: 80vh;
-  max-height: 80vh;
+  height: 95vh;
+  max-height: 95vh;
   min-height: 350px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
