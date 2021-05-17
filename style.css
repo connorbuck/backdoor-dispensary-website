@@ -209,13 +209,8 @@ hr{
   padding-bottom: 1rem;
 }
 
-.fa-phone, .fa-map-pin, .fa-facebook-official{
-    font-size: 4em;
-    margin: 1rem;
-    color: #FFF;
-  }
 
-  .fas{
+  .fa{
       font-size: 4em;
       margin: 1rem;
       color: #FFF;
