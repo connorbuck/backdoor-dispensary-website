@@ -377,6 +377,16 @@ hr{
     margin-bottom: 0px;
   }
 
+  .nav-link{
+    font-size: 1.5em !important;
+    color: #FFFFFF;
+  }
+  
+  .nav-item{
+    font-size: 1.5em !important;
+    color: #FFFFFF;
+  }
+
   .carousel:before {
     content: "";
     display:block;
