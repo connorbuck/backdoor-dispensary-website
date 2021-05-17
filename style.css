@@ -356,7 +356,7 @@ hr{
   }
 
   .navbar{
-    padding: 0rem;
+    padding-bottom: 0rem;
     border-bottom:5px solid #FFFFFF;
   }
 
@@ -373,14 +373,14 @@ hr{
   }
 
   .navbar-toggler{
-    padding-bottom: 0px;
+    padding-bottom: 10px;
     margin-bottom: 0px;
   }
 
   .carousel:before {
     content: "";
     display:block;
-    height: 200px;
+    height: 150px;
   }
 
   .carousel-inner{
