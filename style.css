@@ -380,7 +380,7 @@ hr{
   .carousel:before {
     content: "";
     display:block;
-    height: 150px;
+    height: 110px;
   }
 
   .carousel-inner{
